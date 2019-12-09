@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_specials"
+            android:title="Specials"
+            android:icon="@drawable/ic_special_nav_icon"
+            />
+
+        <item
+            android:id="@+id/nav_employee_rattings"
+            android:title="Ratings"
+            android:icon="@drawable/ic_ratings_nav_one"
+            />
+
+        <item
+            android:id="@+id/nav_service_history"
+            android:title="Service History"
+            android:icon="@drawable/order_history_icon_nav"
+            />
+
+        <item
+            android:id="@+id/nav_employee_messages"
+            android:title="Messages"
+            android:icon="@drawable/ic_messages_nav_one"
+            />
+
+
+        <item
+            android:id="@+id/nav_employee_support"
+            android:title="Support"
+            android:icon="@drawable/support_icon_nav"
+            />
+
+        <item
+            android:id="@+id/nav_terms_services"
+            android:title=""
+            />
+
+
+    </group>
+
+
+
+    <item android:title="">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_signout"
+                android:title="Sign Out"
+                android:icon="@drawable/sign_out_icon_nav"
+                />
+
+        </menu>
+    </item>
+</menu>
