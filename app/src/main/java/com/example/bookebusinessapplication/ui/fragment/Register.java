@@ -2,6 +2,7 @@ package com.example.bookebusinessapplication.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 
 import androidx.fragment.app.Fragment;
@@ -24,7 +25,9 @@ public class Register extends Fragment
 
     private boolean validateUserType()
     {
-        if(mBi)
+      //  if(mBi)
+        Log.d("xd", "validateUserType: xd");
+        return false;
     }
 
 

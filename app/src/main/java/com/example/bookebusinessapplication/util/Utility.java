@@ -15,6 +15,10 @@ public class Utility {
     public static final String KEY_USER_NAME  = "username";
     public static final String KEY_NAME = "name";
     public static final String BOOKE_APP = "Booke";
+    public static final String USER_EMPLOYEE = "Employee";
+    public static final String USER_EMPLOYER = "Employer";
+
+
 
 
     public static String dotToStarConverter(String s)

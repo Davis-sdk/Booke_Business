@@ -1,6 +1,7 @@
 package com.example.bookebusinessapplication.data.model;
 
-import android.os.Message;
+
+import com.example.bookebusinessapplication.data.dao.Message;
 
 public class Event implements Message
 {
@@ -28,8 +29,8 @@ public class Event implements Message
     }
 
 
-    public String getUserName(){return userName;}
-    public void setUserName(String userName){this.userName = userName;}
+    public String getUsername(){return userName;}
+    public void setUsername(String userName){this.userName = userName;}
 
     public String getTitle(){return title;}
     public void setTitle(String title){this.title = title;}
@@ -41,7 +42,7 @@ public class Event implements Message
     public void setLat(Double lat) {this.lat=lat;}
 
     public Double getLon(){return lon;}
-    public void setLon(){this.lon = lon;}
+    public void setLon(Double lon){this.lon = lon;}
 
     @Override
     public String toString() {
