@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.bookebusinessapplication.R;
-import com.example.bookebusinessapplication.ui.viewmodel.RatingViewModel;
+import com.example.bookebusinessapplication.ui.viewmodel.employee.RatingViewModel;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

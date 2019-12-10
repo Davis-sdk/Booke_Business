@@ -1,4 +1,4 @@
-package com.example.bookebusinessapplication.ui.viewmodel;
+package com.example.bookebusinessapplication.ui.viewmodel.employee;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -11,7 +11,7 @@ public class ServiceHistoryViewModel extends  ViewModel {
     public ServiceHistoryViewModel()
     {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is ServiceHistory fragment");
 
     }
 

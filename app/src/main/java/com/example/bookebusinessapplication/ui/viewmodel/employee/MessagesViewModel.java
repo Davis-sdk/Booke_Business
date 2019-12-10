@@ -1,17 +1,17 @@
-package com.example.bookebusinessapplication.ui.viewmodel;
+package com.example.bookebusinessapplication.ui.viewmodel.employee;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class RatingViewModel extends ViewModel{
+public class MessagesViewModel extends ViewModel{
 
     private MutableLiveData <String> mText;
 
-    public RatingViewModel()
+    public MessagesViewModel()
     {
         mText = new MutableLiveData<>();
-        mText.setValue("This is ratting fragmnet");
+        mText.setValue("this is Message fragment");
     }
 
     public LiveData<String> getText() {return mText;}

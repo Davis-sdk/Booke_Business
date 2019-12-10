@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.bookebusinessapplication.R;
-import com.example.bookebusinessapplication.ui.viewmodel.MessagesViewModel;
+import com.example.bookebusinessapplication.ui.viewmodel.employee.MessagesViewModel;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

@@ -31,25 +31,11 @@
             android:title="Support"
             />
 
-        <item
-            android:id="@+id/nav_terms_services"
-            android:title="About"
-        />
+
 
 
     </group>
 
 
 
-    <item android:title="">
-        <menu>
-
-
-            <item
-                android:id="@+id/nav_signout"
-                android:title="Sign Out"
-         />
-
-        </menu>
-    </item>
 </menu>

@@ -1,4 +1,4 @@
-package com.example.bookebusinessapplication.ui.viewmodel;
+package com.example.bookebusinessapplication.ui.viewmodel.employee;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
