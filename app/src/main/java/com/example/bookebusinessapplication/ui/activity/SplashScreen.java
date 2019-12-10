@@ -80,14 +80,18 @@ public class SplashScreen extends AppCompatActivity
 
                     String sessionVar = "Employee";
 
-                    if (!session.checkLogin()) {
+                    if (session.checkLogin()) {
+
                         HashMap<String, String> userDetail = session.getUserDetails();
 //                        if (userDetail.get(UserSession.KEY_USER_TYPE).equals(Utility.USER_EMPLOYEE)) {
                         //temp var for now coz of no sharedPrefs declared
+
                         if (sessionVar.equals(Utility.USER_EMPLOYEE)) {
 
+                            System.out.println("IvykoSitaSekcija");
 
-                        intent = new Intent(SplashScreen.this, EmployeeActivity.class);
+
+                            intent = new Intent(SplashScreen.this, EmployeeActivity.class);
                         } else {
                             intent = new Intent(SplashScreen.this, EmployerActivity.class);
                         }

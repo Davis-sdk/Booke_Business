@@ -265,4 +265,16 @@
 
 
 
+    <!-- EmployeeFragment Labels   -->
+
+    <string name="menu_sepcials">Specials</string>
+    <string name="menu_ratings">Ratings</string>
+    <string name="menu_service_history">Service History</string>
+    <string name="menu_message">Messages</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_signout">Sign out</string>
+
+
+
+
 </resources>

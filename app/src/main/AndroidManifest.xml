@@ -27,7 +27,17 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ui.activity.EmployeeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme"
+            >
+        </activity>
 
+        <activity android:name=".ui.activity.EmployerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme"
+            >
+        </activity>
 
 
     </application>
